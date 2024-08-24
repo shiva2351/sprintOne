@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.container1 {
+    height: 95vh;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.home {
+    position: relative;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.89), rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.89));
+    height: 100vh;
+    z-index: 1;
+}
+
+.navBar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 12vh;
+}
+
+.netflixlogo {
+    min-width: 130px;
+    max-width: 190px;
+    margin-right: 10px;
+}
+
+.dropLang {
+    display: flex;
+}
+
+.brobboxCard {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    max-width: 130px;
+}
+
+.svg {
+    color: white;
+}
+
+.dropbox {
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.option {
+    color: black;
+}
+
+.dropboxEnd {
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.brobboxCardEnd {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 130px;
+}
+
+.button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+    flex-shrink: 2;
+}
+
+.homeCard {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hometext1 {
+    font-size: 50px;
+}
+
+.hometext2 {
+    font-size: 27px;
+    margin-top: -10px;
+}
+
+.hometext3 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.inputCard {
+    display: flex;
+    align-items: center;
+}
+
+.homeInput {
+    min-width: 300px;
+    max-width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.startBtn {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    outline: none;
+    padding: 13px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.button:hover,
+.startBtn:hover {
+    opacity: 0.85;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 5%;
+    overflow: hidden;
+}
+
+.tvCard {
+    position: relative;
+}
+
+.tvImage {
+    position: relative;
+    z-index: 2;
+    width: 40vw;
+}
+
+.videoSource {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    width: 29.5vw;
+    z-index: 0;
+}
+
+.tvText1 {
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.tvtext2 {
+    font-size: 25px;
+}
+
+.textCard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.line {
+    background-color: #2f2f2f;
+    border: 0px;
+    position: relative;
+    height: 8px;
+    width: 100%;
+    z-index: 10;
+    margin-top: -1px;
+}
+
+.movieMobilePic {
+    position: relative;
+    width: 40vw;
+}
+
+.movieDetails {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 23vw;
+    background-color: black;
+    transform: translate(36%, -133%);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.downloading {
+    color: blue;
+    font-weight: 100;
+}
+
+.movieImg {
+    width: 4vw;
+}
+
+.moviedetail {
+    margin-left: 20px;
+    line-height: 20%;
+}
+
+.movieCard {
+    position: relative;
+}
+
+.icon {
+    width: 5vw;
+    margin-left: auto;
+}
+
+.watcheverywhereimagecard {
+    position: relative;
+    z-index: 4;
+}
+
+.watcheverywheretv {
+    width: 40vw;
+}
+
+.watcheverywherevideo {
+    position: absolute;
+    width: 25vw;
+    transform: translate(-130%, 18%);
+    z-index: -1;
+}
+
+.childrenImag {
+    width: 40vw;
+}
+
+.container3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.QuestionsList {
+    list-style: none;
+}
+
+.listEle {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: #2f2f2f;
+    margin: 10px;
+    padding: 10px;
+}
+
+.plusIcon {
+    padding-right: 20px;
+}
+
+.listEle p {
+    padding-left: 20px;
+}
+
+.listEle:hover {
+    background-color: #545454;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contactTypesCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactEle {
+    color: white;
+    margin: 10px;
+}
+
+.contactTypesCards {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.textOrder1 {
+    display: none;
+}
+
+@media screen and (max-width:650px) {
+    .inputCard {
+        flex-direction: column;
+    }
+
+    .homeInput {
+        margin-bottom: 10px;
+    }
+
+    .button {
+        font-size: 13px;
+        margin-right: 5px;
+        width: 65px;
+    }
+
+    .dropbox {
+        width: 20px;
+    }
+
+    .netflixlogo {
+        width: 10vw;
+    }
+}
+
+@media all and (max-width:650px) {
+    .container2 {
+        flex-direction: column;
+    }
+
+    .textCard1 {
+        text-align: center;
+    }
+
+    .tvText1 {
+        text-align: center;
+        align-self: center;
+        font-size: 8vw;
+    }
+
+    .tvtext2 {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .tvImage {
+        width: 80vw;
+    }
+
+    .videoSource {
+        width: 58vw;
+    }
+
+    .movieMobilePic {
+        width: 80vw;
+    }
+
+    .movieDetails {
+        width: 50vw;
+        padding: 5px;
+        font-size: 3vw;
+        transform: translate(29%, -120%);
+    }
+
+    .movieImg {
+        width: 8vw;
+    }
+
+    .icon {
+        width: 8vw;
+    }
+
+    .watcheverywheretv {
+        width: 80vw;
+    }
+
+    .watcheverywherevideo {
+        width: 50vw;
+    }
+
+    .childrenImag {
+        width: 80vw;
+    }
+
+    .textOrder2 {
+        display: none;
+    }
+
+    .textOrder1 {
+        display: block;
+    }
+
+    .contactTypesCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .QuestionsList {
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
+
+    .hometext3 {
+        text-align: center;
+    }
+}
